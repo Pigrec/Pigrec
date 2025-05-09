@@ -35,15 +35,6 @@ header {
     border: 0px;
 }
 
-header > div {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    margin: auto 12vw auto 8vw;
-}
-
 h1 {
     font-size: 2.7em;
 }
@@ -103,24 +94,6 @@ a:hover {
     margin: auto 1vw auto 12vw;
 }
 
-header>div>div .icon {
-    height: 4vh;
-    width:  auto;
-
-    margin: 2vh 1.5vw
-}
-
-.img-as {
-    height: 8vh;
-    width: auto;
-}
-
-header>div>div{
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
 section{
     z-index:1;
     position:absolute;
@@ -159,45 +132,6 @@ aside {
     background-color: var(--ar-color);
 }
 
-aside > div {
-    display:flex;
-
-}
-
-.float {
-    display:flex;
-    width: 95vw;
-    flex-wrap: wrap;
-}
-
-proiez-rect, td, tr {
-    padding:1vh;
-    min-width:10vw;
-    height: 5vh;
-    border: solid 1px var(--light-color);
-    text-align: center;
-    background-color: var(--light-color);
-}
-
-table {
-    border-collapse: collapse;
-    border-radius: 15px;
-    min-width:17vw;
-    margin: 2px;
-}
-
-
-.input {
-    margin: 1em 1em 1em 1em;
-    border-color: var(--light-color) var(--light-color) var(--ar-color) var(--light-color);
-    border-style: solid;
-    background-color: var(--white);
-    color: white;
-    min-height: 35px;
-    min-width: 20vw;
-    font-size: 1em;
-}
-
 .inverter::-webkit-calendar-picker-indicator {
     filter: invert(1); /* Inverte il colore dell'icona */
     /* Altri stili desiderati */
@@ -217,10 +151,4 @@ button > img {
     filter: invert(1);
     width: 10%;
     height: auto;
-}
-
-.first {
-    height: 82vh;
-    width: 100vw;
-    background-color: var(--light-color);
 }
